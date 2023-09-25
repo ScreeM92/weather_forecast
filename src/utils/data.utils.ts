@@ -24,7 +24,7 @@ export function getMostFrequentWeather(arr: string[]) {
 }
 
 export const descriptionToIconName = (desc: string, list: WeatherMetadata[]) => {
-  const iconName = list.find((item) => item.description === desc);
+  const iconName = list.find((item: WeatherMetadata) => item.description === desc);
   return iconName?.icon || 'unknown';
 };
 
@@ -57,7 +57,7 @@ export const getWeekForecastWeather = (response: ForecastResponse | undefined, w
   const forecastDescrGroupByDate = groupBy(forecastDescription, 'date');
   const dayDescList = Object.keys(forecastDescrGroupByDate).map((key) => {
     let singleDayDescriptions = forecastDescrGroupByDate[key].map(
-      (item) => item.description
+      (item: WeatherMetadata) => item.description
     );
     return getMostFrequentWeather(singleDayDescriptions);
   });

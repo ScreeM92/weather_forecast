@@ -10,7 +10,7 @@ function importAll(r: any) {
 
 export const weatherIcon = (imageName: string): string => {
   const allWeatherIcons = importAll(
-    require.context('../assets/icons', false, /\.(png)$/)
+    (require as any).context('../assets/icons', false, /\.(png)$/)
   );
 
   const iconsKeys = Object.keys(allWeatherIcons);
