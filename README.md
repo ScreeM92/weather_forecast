@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project entails developing a weather forecasting web application that offers a comprehensive 5-day weather forecast for a user's chosen location. The app will employ Geolocation services to automatically detect the user's current position for instant weather updates. Additionally, users will have the capability to input a specific city of their preference to obtain the 5-day weather outlook and further explore hourly weather details for each of the forecasted days.
 
 ## Available Scripts
 
@@ -11,13 +11,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
@@ -26,8 +22,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,8 +33,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## TODO
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If I had more time, I would prioritize refactoring the existing codebase to enhance its maintainability and readability. This refactoring effort would involve optimizing algorithms, improving code structure, and adhering to best practices and design patterns. Additionally, I would focus on adding more unit tests to ensure robust code coverage, better error handling, and overall code reliability. These actions would help reduce technical debt and contribute to the long-term stability and scalability of the project.
